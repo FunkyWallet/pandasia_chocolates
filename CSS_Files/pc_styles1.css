@@ -13,7 +13,8 @@
 
 */
 
-/* HTML and Body Styles */
+/****** HTML and Body Styles ******/
+/****** ^^^^^^^^^^^^^^^^^^^^ ******/
 
 html {
    background-color: rgb(186, 136, 81);
@@ -25,7 +26,8 @@ body {
 }
 
 
-/* Horizontal Navigation Styles */
+/****** Horizontal Navigation Styles ******/
+/****** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ******/
 
 nav.horizontalNavigation a {
    background-color: rgb(113, 86, 39);
@@ -46,7 +48,8 @@ nav.horizontalNavigation a:active {
 }   
 
 
-/* Left Column Paragraph Styles */
+/****** Left Column Paragraph Styles ******/
+/****** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ******/
 
 section#leftColumn p {
    color: rgb(248, 248, 186);
@@ -55,7 +58,8 @@ section#leftColumn p {
 }
 
 
-/* Footer Styles */
+/****** Footer Styles ******/
+/****** ^^^^^^^^^^^^^ ******/
 
 body > footer {
    font-size: 0.9em;
@@ -70,7 +74,8 @@ body > footer h1 {
    margin: 1em 0 0.5em 1em;
 }
 
-/* Vertical Navigation Styles */
+/****** Vertical Navigation Styles ******/
+/****** ^^^^^^^^^^^^^^^^^^^^^^^^^^ ******/
 
 nav.verticalNavigation ul {
    margin-left: 1em;
@@ -87,7 +92,8 @@ nav.verticalNavigation a:active {
    text-decoration: underline;
 }
 
-/* Contact Info Styles */
+/****** Contact Info Styles ******/
+/****** ^^^^^^^^^^^^^^^^^^^ ******/
 
 section#contactInfo p {
    line-height: 1.4em;

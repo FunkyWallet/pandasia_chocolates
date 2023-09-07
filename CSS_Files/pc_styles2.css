@@ -13,13 +13,15 @@
 
 */
 
-/* HTML and Body Styles */
+/****** HTML and Body Styles ******/
+/****** ^^^^^^^^^^^^^^^^^^^^ ******/
 
 html {
    background-color: rgb(186, 136, 81);
 }
 
-/* Page Body Styles */
+/****** Page Body Styles ******/
+/****** ^^^^^^^^^^^^^^^^ ******/
 body {
    margin-left: auto;
    margin-right: auto;
@@ -30,7 +32,8 @@ body {
    font-family: Verdana, Geneva, Arial, sans-serif;   
 }
 
-/* Page Header Styles */
+/****** Page Header Styles ******/
+/****** ^^^^^^^^^^^^^^^^^^ ******/
 body > header > img {
    display: block;
    width: 100%;
@@ -41,7 +44,8 @@ body > header > nav.horizontalNavigation li {
 }
 
 
-/* Horizontal Navigation List Styles */
+/****** Horizontal Navigation List Styles ******/
+/****** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ******/
 
 nav.horizontalNavigation > ul > li {
    display: block;
@@ -67,7 +71,8 @@ nav.horizontalNavigation a:active {
    background-color: rgb(71, 52, 29);
 } 
 
-/* Heading Styles */
+/****** Heading Styles ******/
+/****** ^^^^^^^^^^^^^^ ******/
 
 h1, h2, h3 {
    text-indent: 1em;
@@ -100,14 +105,16 @@ h3 {
 }
 
 
-/* Paragraph Styles */
+/****** Paragraph Styles ******/
+/****** ^^^^^^^^^^^^^^^^ ******/
 
 p {
    margin: 1em;
    font-size: 0.9em;
 }
 
-/* Left Column Styles */
+/****** Left Column Styles ******/
+/****** ^^^^^^^^^^^^^^^^^^ ******/
 
 img {
    width: 100%;
@@ -115,7 +122,8 @@ img {
 }
 
 
-/* Right Column Styles */
+/****** Right Column Styles ******/
+/****** ^^^^^^^^^^^^^^^^^^^ ******/
 
 aside {
    background-color: rgb(123, 89, 49);
@@ -146,7 +154,8 @@ dl > dd {
    font-family: cursive;
 }
 
-/* Footer Styles */
+/****** Footer Styles ******/
+/****** ^^^^^^^^^^^^^ ******/
 
 footer {
    color: rgb(186, 186, 156);

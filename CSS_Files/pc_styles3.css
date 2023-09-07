@@ -14,13 +14,15 @@
 
 */
 
-/* HTML and Body Styles */
+/****** HTML and Body Styles ******/
+/****** ^^^^^^^^^^^^^^^^^^^^ ******/
 
 html {
    background-color: rgb(186, 136, 81);
 }
 
-/* Page Body Styles */
+/****** Page Body Styles ******/
+/****** ^^^^^^^^^^^^^^^^ ******/
 body {
    margin-left: auto;
    margin-right: auto;
@@ -31,7 +33,8 @@ body {
    font-family: Verdana, Geneva, Arial, sans-serif;   
 }
 
-/* Page Header Styles */
+/****** Page Header Styles ******/
+/****** ^^^^^^^^^^^^^^^^^^ ******/
 body > header > img {
    display: block;
    width: 100%;
@@ -53,7 +56,8 @@ body > header > h1 {
 }
 
 
-/* Horizontal Navigation List Styles */
+/****** Horizontal Navigation List Styles ******/
+/****** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ******/
 
 nav.horizontalNavigation > ul > li {
    display: block;
@@ -79,7 +83,8 @@ nav.horizontalNavigation a:active {
    background-color: rgb(71, 52, 29);
 } 
 
-/* Footer Styles */
+/****** Footer Styles ******/
+/****** ^^^^^^^^^^^^^ ******/
 
 footer {
    color: rgb(186, 186, 156);
@@ -89,14 +94,16 @@ footer {
    text-align: center;
 }
 
-/* Main Styles */
+/****** Main Styles ******/
+/****** ^^^^^^^^^^^ ******/
 
 main {
    background-color: rgb(172, 116, 30);
    clear: both;
 }
 
-/* Infographic Styles */
+/****** Infographic Styles ******/
+/****** ^^^^^^^^^^^^^^^^^^ ******/
 
 div.infobox {
    font-size: 0.8em;
@@ -114,7 +121,8 @@ div.infobox p {
    text-align: center;
 }
 
-/* First Infographic */
+/****** First Infographic ******/
+/****** ^^^^^^^^^^^^^^^^^ ******/
 
 div#info1 {
    width: 25%;
@@ -124,13 +132,15 @@ div#info1 p {
    color: rgb(72, 51, 29);
 }
 
-/* Second Infographic */
+/****** Second Infographic ******/
+/****** ^^^^^^^^^^^^^^^^^^ ******/
 
 div#info2 {
    width: 25%;
 }
 
-/* Third Infographic */
+/****** Third Infographic ******/
+/****** ^^^^^^^^^^^^^^^^^ ******/
 
 div#info3 {
    width: 20%;
@@ -140,7 +150,8 @@ div#info3 {
    background-color: rgb(72, 51, 29);
 }
 
-/* Fourth Infographic */
+/****** Fourth Infographic ******/
+/****** ^^^^^^^^^^^^^^^^^^ ******/
 
 div#info4 {
    width: 35%;
@@ -152,13 +163,15 @@ div#info4 p {
    font-size: 2em;
 }
 
-/* Fifth Infographic */
+/****** Fifth Infographic ******/
+/****** ^^^^^^^^^^^^^^^^^ ******/
 
 div#info5 {
    width: 40%;
 }
 
-/* Sixth Infographic */
+/****** Sixth Infographic ******/
+/****** ^^^^^^^^^^^^^^^^^ ******/
 
 div#info6 {
    width: 45%;
@@ -168,7 +181,8 @@ div#info6 {
    background-color: rgb(72, 51, 29);
 }
 
-/* Seventh Infographic */
+/****** Seventh Infographic ******/
+/****** ^^^^^^^^^^^^^^^^^^^ ******/
 
 div#info7 {
    width: 25%;   
@@ -178,7 +192,8 @@ div#info7 p {
    color: rgb(72, 51, 29);
 }
 
-/* Eighth Infographic */
+/****** Eighth Infographic ******/
+/****** ^^^^^^^^^^^^^^^^^^ ******/
 
 div#info8 {
    width: 45%;   
