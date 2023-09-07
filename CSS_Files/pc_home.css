@@ -19,7 +19,9 @@ body {
 
 /****** Body Header Styles ******/
 /****** ^^^^^^^^^^^^^^^^^^ ******/
-
+body > header > img {
+   display: block;
+}
 
 /****** Horizontal Navigation Styles ******/
 /****** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ******/
