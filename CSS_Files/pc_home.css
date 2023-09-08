@@ -36,7 +36,7 @@ body > header > nav.horizontalNavigation li {
 /****** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ******/
 nav.horizontalNavigation li {
    display: block;
-   float: left;
+   float: left; /*float will allow element positioning within its container. */
 }
 nav.horizontalNavigation a {
    display: block;
@@ -46,7 +46,9 @@ nav.horizontalNavigation a {
 /****** Left Column Styles ******/
 /****** ^^^^^^^^^^^^^^^^^^ ******/
 section#leftColumn {
-   clear: left;
+   clear: left; /*Makes element start when it is clear of a float that is to the left. */
+   float: left;
+   width: 33%;
 }
 
 /****** Right Column Styles ******/
