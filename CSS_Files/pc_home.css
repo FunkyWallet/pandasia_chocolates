@@ -9,30 +9,45 @@
 
 */
 
+
 /****** Body Styles ******/
 /****** ^^^^^^^^^^^ ******/
 body {
-   margin-left: auto;
-   margin-right: auto;
+   margin-left: auto; /*the auto value let's the browser automatically apply a pixel value evenly.*/
+   margin-right: auto; /*this second auto value centers the element in question due to the even split of pixels on left and right.*/
    max-width: 960px;
    min-width: 640px;
    width: 95%;
 }
 
+
 /****** Body Header Styles ******/
 /****** ^^^^^^^^^^^^^^^^^^ ******/
-header > img {
+body > header > img {
    display: block; /*Images are inline, this will allow it to behave like a block element. */
    width: 100%;
 }
+body > header > nav.horizontalNavigation li {
+   width: 20%;
+}
+
 
 /****** Horizontal Navigation Styles ******/
 /****** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ******/
-
+nav.horizontalNavigation li {
+   display: block;
+   float: left;
+}
+nav.horizontalNavigation a {
+   display: block;
+   text-align: center;
+}
 
 /****** Left Column Styles ******/
 /****** ^^^^^^^^^^^^^^^^^^ ******/
-
+section#leftColumn {
+   clear: left;
+}
 
 /****** Right Column Styles ******/
 /****** ^^^^^^^^^^^^^^^^^^^ ******/
