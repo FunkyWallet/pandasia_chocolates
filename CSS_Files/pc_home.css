@@ -84,7 +84,7 @@ footer > section#contactInfo {
    float: left;
    width: 34%; /*fills remaining percentage from the 22% of the 3 previous footer elements.*/
 }
-footer::after { /*this is a "pseudo-element. this one adds an empty string in order for the footer to fit more appropriately.*/
+footer::after { /*this is a "pseudo-element. this one adds an empty string in order for the footer to fit more appropriately and prevent collapse.*/
    clear: both;
    content: "";
    display: table;
