@@ -7,44 +7,81 @@
 
 */
 
-
 /****** Main Styles ******/
 /****** ^^^^^^^^^^^ ******/
-
+main {
+   position: relative; /*Moves element out of its normal position in the document to specified locations below. "relative to original position".*/
+   height: 450px;      /*Sets height to 1400 pixels.*/
+   width: 100%;        /*Sets width to take all of the parent element (body in this case).*/
+   overflow: auto;     /*Keeps element at specified size and adds scroll bar when content overflows height.*/
+}
 
 /****** Infographic Styles ******/
 /****** ^^^^^^^^^^^^^^^^^^ ******/
-
+div.infobox {
+   position: absolute; /*Locks element to their parent.*/
+}
 
 /****** First Infographic ******/
 /****** ^^^^^^^^^^^^^^^^^ ******/
-
+div#info1 {
+   display: block;  /*Changes to block display to start on a new line and take the whole width */
+   top: 20px; /*Places info1 20pixels from the top of the main element("infographic" id) */
+   left: 5%;  /*Places info1 5% from the left edge */
+}
 
 /****** Second Infographic ******/
 /****** ^^^^^^^^^^^^^^^^^^ ******/
-
+div#info2 {
+   display: block;
+   top: 185px;
+   left: 42%;
+}
 
 /****** Third Infographic ******/
 /****** ^^^^^^^^^^^^^^^^^ ******/
-
+div#info3 {
+   display: block;
+   top: 135px;
+   left: 75%;
+}
 
 /****** Fourth Infographic ******/
 /****** ^^^^^^^^^^^^^^^^^^ ******/
-
+div#info4 {
+   display: block;
+   top: 510px;
+   left: 8%;   
+}  
 
 /****** Fifth Infographic ******/
 /****** ^^^^^^^^^^^^^^^^^ ******/
-
+div#info5 {
+   display: block;
+   top: 800px;
+   left: 3%;
+}
 
 /****** Sixth Infographic ******/
 /****** ^^^^^^^^^^^^^^^^^ ******/
-
+div#info6 {
+   display: block;
+   top: 600px;
+   left: 48%;
+}
 
 /****** Seventh Infographic ******/
 /****** ^^^^^^^^^^^^^^^^^^^ ******/
-
+div#info7 {
+   display: block;
+   top: 1000px;
+   left: 68%;
+}
 
 /****** Eighth Infographic ******/
 /****** ^^^^^^^^^^^^^^^^^^ ******/
-
-
+div#info8 {
+   display: block;
+   top: 1100px;
+   left: 12%;
+}
